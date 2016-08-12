@@ -183,6 +183,7 @@ img {
 }
 
 .row .col-3{
+	width: 25px;
 	float: left;
 }
 
