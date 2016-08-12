@@ -1,0 +1,362 @@
+img {
+	display: block;
+}
+
+.container {
+	width: 1180px;
+	margin: 0 auto;
+}
+
+.clearfix {
+	clear: both;
+}
+
+
+
+
+#header {
+	position: fixed;
+	width: 100%;
+}
+
+#logo {
+	float: left;
+}
+
+#nav {
+	float: right;
+}
+
+#nav ul {
+	margin: 0;
+    line-height: 40px;
+    list-style-type: none;
+}
+
+#nav li {
+	float: left;
+}
+
+#nav a {
+	padding: 0 24px;
+	color: #fff;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+
+
+
+
+.banner {
+	background-color: #0C2E57;
+	height: 100vh;
+	color: white;
+}
+
+.banner-container {
+	position: relative;
+	top: 50%;
+	background-color: rgba(0,0,0,.3);
+}
+
+.banner-container > div {
+	float: left;
+}
+
+.banner-container .clearfix {
+	float: none;
+}
+
+.banner-container img {
+	width: 100%;
+	height: auto;
+}
+
+.banner .left, .banner .right {
+	width: 30%;
+    font-size: 120px;
+    font-weight: 100;
+    box-sizing: border-box;
+}
+
+.banner .left {
+	padding-left: 50px;
+}
+
+.banner .right {
+	text-align: right;
+	padding-right: 50px;
+}
+
+.banner .title {
+	padding: 30px 0;
+	width: 40%;
+	text-align: center;
+    background-color: rgba(0,0,0,.6);
+    text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.banner .title h3 {
+	font-weight: 200;
+}
+
+.banner h3.subtitle {
+	font-size: 14px;
+}
+
+.banner .title h3:first-child {
+	margin-top: 0;
+}
+
+.banner .title h3:last-child {
+	margin-bottom: 0;
+}
+
+
+
+
+
+
+
+
+.feature {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	float: left;
+	padding-right: 40px;
+	padding-bottom: 40px;
+	width: 33.33333333333%;
+}
+
+.feature .title > img, .feature .title > h3 {
+	float: left;
+}
+
+.feature .title img {
+	margin-right: 20px;
+}
+
+.feature .title h3 {
+    margin: 0;
+    line-height: 45px;
+    text-transform: uppercase;
+}
+
+
+.portfolio em {
+	font-size: 40px;
+}
+.portfolio h2 {
+	width: 70%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.portfolio p {
+	width: 40%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.protfolio {
+	float: right;
+}
+.portfolio ul {
+	margin: 0;
+    line-height: 40px;
+    list-style-type: none;
+}
+.portfolio li {
+	float: left;
+}
+.portfolio a {
+	padding: 0 24px;
+	color: black;
+	text-decoration: none;
+	text-transform: capitalize;
+	text-align: center;
+}
+.portfolio img{
+	display: block;
+}
+
+.row .col-3{
+	float: left;
+}
+
+.col-61 {
+	float: left;
+	margin: 0, auto;
+}
+
+.col-121 {
+	width: 50%;
+	float: left;
+	margin: 0, auto;
+}
+.col-122 {
+	width: 50%;
+	float: right;
+	margin: 0, auto;
+}
+
+.col-62 {
+	width: 50%;
+	margin: 0;
+
+}
+
+#Subtitle > h2 {
+	width: 1180px;
+	margin: 0 auto;
+	text-align: center;
+	float: left;
+}
+#Subtitle > img {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.LoadMore > h3 {
+	width: 800px;
+	margin: 0 auto;
+	text-align: center;
+}
+.purchase-now h3 {
+	float: left;
+	border-style: bold;
+}
+
+.skills {
+	width: 25%;
+	float: left;
+	padding: 10px;
+	box-sizing: border-box;
+}
+.service {
+	width: 25%;
+	float: left;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+
+.item {
+	float: right;
+}
+
+.item ul {
+	margin: 2px;
+    line-height: 40px;
+    list-style-type: none;
+}
+
+.item li {
+	float: left;
+}
+
+.item a {
+	padding: 0 24px;
+	color: black;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+
+
+.number {
+	float: right;
+}
+
+.number ul {
+	margin: 2px;
+    line-height: 40px;
+    list-style-type: none;
+}
+
+.number li {
+	float: left;
+}
+
+.number a {
+	padding: 0 24px;
+	color: black;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+
+.theme {
+	display: inline-block;
+	width: 25%;
+	float: left;
+}
+
+.Pics {
+	display: inline-block;
+	float: left;
+
+}
+.Binfo {
+	display: block;
+	margin: auto;
+}
+
+
+#footer {
+	padding: 600px 0;
+}
+
+ul.social-media {
+	margin: 0;
+	padding-left: 0;
+	list-style-type: none;
+}
+
+.social-media li {
+	float: left;
+	margin-right: 10px;
+	padding: 8px 6px;
+	border-radius: 50%;
+}
+
+.social-media a {
+	color: white;
+}
+
+.social-media li.rss {
+	background-color: #FFAB02;
+}
+
+.social-media li.twitter {
+	background-color: #00B6F6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
